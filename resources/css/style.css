@@ -128,7 +128,6 @@ footer {
   .headline {
       width: 100%;
       padding: 1em 2em;
-      top: 10em;
  }
    .headline h4 {
     font-size: .77rem;
@@ -140,7 +139,7 @@ footer {
     display: block;
     text-align: center;
  }
-.products, .business-info {
+.products .business-info {
     flex-wrap: wrap;
  }
 .product {
@@ -178,3 +177,10 @@ footer {
     margin: 0.5em auto;
 }
 }
+@media only screen  and (max-width: 470px) and (max-width: 1024px)
+{
+  .product {
+      width: 90%;
+      margin: auto;
+    }
+  }
